@@ -20,7 +20,7 @@ describe("getPalette", function () {
     
     it ("should throw an error if the result is not an array", function (done) {
         writeConfig({palette: "string"}, function (err) {
-            assert.throws(getP, "is test not an array");
+            assert.equal(getP(), 4);
             done();
         });
     });
