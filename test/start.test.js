@@ -1,6 +1,4 @@
 var expect    = require("chai").expect;
-var request = require("request");
-var p = require('../lib/p')()
 
 describe('Suite one', function(){
   it("equals", function () {
